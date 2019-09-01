@@ -1,0 +1,27 @@
+        if(wolf.getPositionX()==sheep.getPositionX() && wolf.getPositionY()==sheep.getPositionY()) {
+
+        if(grass.getPositionX() == sheep.getPositionX() && grass.getPositionY() == sheep.getPositionY()) {
+
+        if (sheep1.getPositionX() == sheep2.getPositionX() && sheep1.getPositionY() == sheep2.getPositionY()) {
+            if (sheep1.getSex() != sheep2.getSex()) {
+
+        if (wolf1.getPositionX() == wolf2.getPositionX() && wolf1.getPositionY() == wolf2.getPositionY()) {
+            if (wolf1.getSex() != wolf2.getSex()) {
+
+            }
+
+
+
+
+        System.out.println(wolf.graphic);
+        System.out.println(wolf.liveTime);
+        System.out.println(wolf.hunger);
+        System.out.println(sheep.graphic);
+
+        func.collision(wolf, sheep);
+
+        System.out.println(sheep.graphic);
+
+        System.out.println(wolf.graphic);
+        System.out.println(wolf.liveTime);
+        System.out.println(wolf.hunger);
